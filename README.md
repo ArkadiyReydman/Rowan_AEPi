@@ -1,2 +1,6 @@
 # Rowan_AEPi
-Website for Rowan AEPi
+
+
+Informational Website for Rowan AEPi
+
+Created by Brother Arkadiy Reydman.
