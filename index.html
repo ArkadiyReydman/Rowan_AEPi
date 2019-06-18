@@ -6,34 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="carousel.css" type="text/css" />
-
+  <script type="text/javascript">
+		function changeurl(pagename){
+			onclick="history.pushState(null, null, pagename)"
+		}
+	</script>
   <title>Home</title>
 
 </head>
 <body>
+  <!-- Navigation Bar (Header) ========================================== -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <img src="images/logo.png" width="50px" height="50px">
-      <a class="navbar-brand" href="#"><b>Rowan ΑΕΠ</b></a>
+      <img class="logo" src="images/logo.png" width="55px" align="left">
+      <a class="navbar-brand" href="index.html">ROWAN AEΠ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarCollapse">
+      <!--Div for Alignment Purposes Below -->
+      <div class="navig-align">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#s">HOME</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BOARD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RECRUITMENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://www.aepigivesback.org/gamma-upsilon" target="_blank">DONATE
+              <img src="images/externallink.png" alt="" style="height:20px"></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
+
+  <!-- End of Navigation Bar (Header) -->
 
   <main role="main">
 
@@ -155,12 +177,13 @@
     <!-- FOOTER -->
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; Website Created by Brother Arkadiy R 2020</p>
+      <p>&copy; Website Created by Brother Arkadiy Reydman 2020</p>
     </footer>
   </main>
 
-  <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-  <!-- Optional JavaScript -->
+      <!-- Optional JavaScript -->
+      <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
