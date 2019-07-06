@@ -43,29 +43,110 @@ My Personal Editing:
 
 /* Home */
 .lead {
-  font-size: 12px;
+  font-size: 20px;
   opacity: 1;
 }
 
 #main1 {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.10) 0%,rgba(0,0,0,0.80) 100%), url(images/main.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.80) 100%), url(images/main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #main2 {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.10) 0%,rgba(0,0,0,0.80) 100%), url(images/main2.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.80) 100%), url(images/main2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #main3 {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.10) 0%,rgba(0,0,0,0.80) 100%), url(images/main3.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.80) 100%), url(images/main3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 82%;
 }
+
+/* ABOUT */
+
+#ABOUT {
+  margin-bottom: 20px;
+}
+
+.img-responsive {
+  width: 80%;
+  height: 100%;
+}
+
+.about-text {
+  color: #343a40;
+}
+
+.section-title hr {
+  border-color: #fcac45;
+  border-width: medium;
+}
+
+.about-list {
+}
+
+.textchng {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.linktxt {
+  color: #FCAC45;
+}
+
+.move {
+  margin-top: 20px;
+}
+
+/* BOARD */
+
+#BOARD {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.40) 100%,rgba(0,0,0,0.40) 100%), url(images/buncehall.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#BOARD .overlay {
+  height: auto;
+  background-attachment: fixed;
+  padding: 80px 0;
+}
+
+.section-title.center {
+    padding: 30px 0;
+}
+
+#BOARD .section-title h2, .section-title.center h2 {
+    font-weight: 300;
+    color: white;
+    font-size: 40px;
+}
+
+.section-title.center .line {
+  border-top: 4px solid white;
+  height: 10px;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.section-title.center hr {
+    border-top: 4px solid white;
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .4;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -97,7 +178,7 @@ My Personal Editing:
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -134,6 +215,12 @@ My Personal Editing:
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media (min-width: 80%) {
+  .img-responsive {
+
   }
 }
 

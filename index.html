@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="carousel.css" type="text/css" />
-  <script type="text/javascript">
-		function changeurl(pagename){
-			onclick="history.pushState(null, null, pagename)"
-		}
-	</script>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="myjavascript.js"></script>
+
   <title>ROWAN UNIVERSITY AEΠ</title>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
   <!-- Navigation Bar (Header) ========================================== -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -27,23 +30,23 @@
       <!--Div for Alignment Purposes Below -->
       <div class="navig-align">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#HOME">HOME</a>
+          <li class="nav-item">
+            <a class="nav-link active" href="#HOME">HOME</a>
           </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#ABOUT">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BOARD</a>
+              <a class="nav-link" href="#BOARD">BOARD</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">RECRUITMENT</a>
+              <a class="nav-link" href="#RECRUITMENT">RECRUITMENT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="#FAQ">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#CONTACT">CONTACT</a>
             </li>
             <li class="nav-item">
               <a id="donatebutton" class="nav-link" href="http://www.aepigivesback.org/gamma-upsilon" target="_blank">DONATE
@@ -53,13 +56,14 @@
         </div>
       </div>
     </nav>
+
   </header>
 
   <!-- End of Navigation Bar (Header) -->
 
   <main role="main">
 
-  <!-- Home Page ========================================== -->
+  <!-- Home ========================================== -->
 
     <div id="HOME" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -108,11 +112,67 @@
       </a>
     </div>
 
-<!-- End of Home Page Bar (Header) -->
+<!-- End of Home Bar (Header) -->
 
 <!-- Marketing messaging and featurettes
  ================================================== -->
  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+<!-- About ================================= -->
+
+<div id="ABOUT" class="container">
+  <div class="row">
+                  <div class="col-md-6" style="text-align: center;">
+                      <img src="images/logo.png" class="img-responsive">
+                  </div>
+                  <div class="col-md-6">
+                      <div class="about-text">
+                          <div class="section-title">
+                              <h4>ABOUT US</h4>
+                              <h2>OUR <strong> FRATERNITY </strong> AND ITS ROOTS</h2>
+                              <hr>
+                          </div>
+                          <p class="intro">Founded in 1913, AEPi now exists in Australia, Austria, Canada, England, France, Israel, and the USA. Our basic purpose is not specifically religious, but rather social and cultural in nature. We help brothers cultivate their character, learn responsibility, and develop a proper set of values through engaging with each other as a brotherhood.</p></br>
+
+                          <p class="intro">Our brothers are active on campus, leading every Jewish and Israel-focused organization and shaping Rowan University culture through the Student Government Association, Inter-Greek Council, Inter-Fraternity Council, university clubs, sports, campus jobs, and more.</p></br>
+                          <ul class="about-list">
+                              <li class="move">
+                                  <strong class="textchng">AEPi Globally</strong>: <em>Over 170 fraternities in 7 countries. View <a href="http://aepi.org" target="_blank" class="linktxt"> AEPi</a> page.</em>
+                              </li>
+                              <li class="move">
+                                  <strong class="textchng">Strong in numbers</strong>: <em>Over 9,000 undergraduates and 98,000 alumni.</em>
+                              </li>
+                              <li class="move">
+                                  <strong class="textchng">Our Chapter</strong>: <em>Active and growing alumni base. <a href=https://www.linkedin.com/groups/8597096/ target="_blank" class="linktxt">LinkedIn Group</a></em>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+<!-- End of About Section -->
+
+<!-- Board ============================== -->
+
+<div class="text-center" id="BOARD">
+  <div class="overlay">
+    <div class="container">
+
+      <div class="section-title center">
+        <h2>MEET <strong>THE BOARD</strong></h2>
+        <div class="line">
+          <hr />
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+<!-- End of Board Section -->
 
  <div class="container marketing">
 
@@ -188,12 +248,5 @@
     </footer>
   </main>
 
-      <!-- Optional JavaScript -->
-      <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
