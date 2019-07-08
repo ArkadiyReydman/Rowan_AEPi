@@ -6,6 +6,6 @@ $(".nav-link.active").removeClass("active");
 $(this).addClass("active");
 });
 
-$('body').scrollspy({ target: '.navbar' })
+$('body').scrollspy({ target: '.navbar' });
 
 });

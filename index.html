@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="carousel.css" type="text/css" />
   <link rel="icon" type="image/png" href="images/logo.png" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -166,13 +169,108 @@
         </div>
       </div>
 
+      <div id="team" class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="thumbnail">
+                    <img src="images/austinsoriano.JPG" class="eboard">
+                  </div>
+                  <div class="caption">
+                    <h3>Austin Soriano</h3>
+                    <p class="lead2">Master</p>
+                  </div>
+               </div>
 
+               <div class="item">
+                 <div class="thumbnail">
+                   <img src="images/neevekadosh.JPG" class="eboard">
+                 </div>
+                 <div class="caption">
+                   <h3>Neeve Kadosh</h3>
+                   <p class="lead2">Lt. Master</p>
+                 </div>
+              </div>
 
+              <div class="item">
+                <div class="thumbnail">
+                  <img src="images/iannielson.JPG" class="eboard">
+                </div>
+                <div class="caption">
+                  <h3>Ian Nielsen</h3>
+                  <p class="lead2">Exchequer</p>
+                </div>
+             </div>
+
+             <div class="item">
+               <div class="thumbnail">
+                 <img src="images/michaelweinberg.JPG" class="eboard">
+               </div>
+               <div class="caption">
+                 <h3>Michael Weinberg</h3>
+                 <p class="lead2">Scribe</p>
+               </div>
+            </div>
+
+            <div class="item">
+              <div class="thumbnail">
+                <img src="images/elijahazaraev.JPG" class="eboard">
+              </div>
+              <div class="caption">
+                <h3>Elijah Azaraev</h3>
+                <p class="lead2">Sentinel</p>
+              </div>
+           </div>
+
+           <div class="item">
+             <div class="thumbnail">
+               <img src="images/willroberts.JPG" class="eboard">
+             </div>
+             <div class="caption">
+               <h3>Will Roberts</h3>
+               <p class="lead2">New Member Educator</p>
+             </div>
+          </div>
+
+          <div class="item">
+            <div class="thumbnail">
+              <img src="images/matttate.JPG" class="eboard">
+            </div>
+            <div class="caption">
+              <h3>Matt Tate</h3>
+              <p class="lead2">Brother At Large</p>
+            </div>
+         </div>
+
+         <div class="item">
+           <div class="thumbnail">
+             <img src="images/jordansolomon.JPG" class="eboard">
+           </div>
+           <div class="caption">
+             <h3>Jordan Solomon</h3>
+             <p class="lead2">Recruitment Chair</p>
+           </div>
+        </div>
+
+        <div class="item">
+          <div class="thumbnail">
+            <img src="images/aaronkorbman.JPG" class="eboard">
+          </div>
+          <div class="caption">
+            <h3>Aaron Korbman</h3>
+            <p class="lead2">House Manager</p>
+          </div>
+       </div>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- End of Board Section -->
+
+<hr class="featurette-divider">
+
+<!-- RECRUITMENT -->
+
+<!-- END of RECRUITMENT -->
 
  <div class="container marketing">
 
@@ -245,6 +343,28 @@
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
       <p>&copy; Website Created by Brother Arkadiy Reydman 2020</p>
+
+    <!-- Owl Carousel Stuff -->
+      <script src="owlcarousel/jquery.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+      <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+      center:true,
+      loop:true,
+      margin:10,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+    </script>
     </footer>
   </main>
 
