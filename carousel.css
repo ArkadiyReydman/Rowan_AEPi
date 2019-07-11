@@ -106,7 +106,7 @@ My Personal Editing:
 /* BOARD */
 
 #BOARD {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.50) 100%,rgba(0,0,0,0.50) 100%), url(images/buncehall.jpeg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.60) 100%,rgba(0,0,0,0.50) 100%), url(images/buncehall.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -163,8 +163,66 @@ My Personal Editing:
 #team .caption .lead2 {
   font-style: italic;
   font-family: 'Times New Roman', sans-serif;
-
 }
+
+/* RECRUITMENT */
+
+#RECRUITMENT {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#RECRUITMENT .section-title {
+  text-transform: uppercase;
+  opacity: .8;
+  text-decoration: underline;
+}
+
+#RECRUITMENT h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.space {
+    margin-top: 100px;
+}
+
+#RECRUITMENT h4 {
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+#RECRUITMENT .piccontain {
+  width: 100px;
+  height: 100px;
+}
+
+#RECRUITMENT .col-md-3:hover {
+  opacity: .5;
+}
+
+/* FAQs */
+
+#FAQ {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.60) 100%,rgba(0,0,0,0.50) 100%), url(images/kravmaga.JPG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+#FAQ .overlay {
+  height: auto;
+  background-attachment: fixed;
+  padding: 80px 0;
+}
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
