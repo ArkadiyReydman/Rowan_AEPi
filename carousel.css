@@ -208,21 +208,92 @@ My Personal Editing:
 /* FAQs */
 
 #FAQ {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.60) 100%,rgba(0,0,0,0.50) 100%), url(images/kravmaga.JPG);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.60) 100%,rgba(0,0,0,0.60) 100%), url(images/kravmaga.JPG);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 950px;
+  color: #ffffff;
 }
 
 #FAQ .overlay {
-  height: auto;
-  background-attachment: fixed;
-  padding: 80px 0;
+	padding: 80px 0;
+	background-attachment: fixed;
 }
 
+#FAQ .section-title {
+  margin-bottom: 50px;
+}
 
+#insidefaq {
+  color: #ffffff;
+  font-size: 16px;
+  margin: auto;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  width: 100%;
+}
+
+#insidefaq:hover {
+  background-color: black;
+}
+
+#insidefaq h1 {
+  margin-bottom: 45px;
+  font-weight: bolder;
+}
+
+#insidefaq p {
+  font-style: italic;
+}
+
+/* CONTACT */
+
+#CONTACT .container {
+    margin: auto;
+    padding: 80px 0;
+    color: #343a40;
+    height: 500px;
+}
+
+#CONTACT .section-title {
+  margin-bottom: 20px;
+}
+
+#CONTACT .section-title h2 {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #343a40;
+}
+
+#CONTACT .section-title h4 {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+#CONTACT .section-title.center .line {
+  border-top: 4px solid #343a40;
+  height: 10px;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#CONTACT .section-title.center hr {
+    border-top: 4px solid #343a40;
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .4;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
