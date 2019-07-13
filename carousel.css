@@ -259,11 +259,11 @@ My Personal Editing:
     color: #343a40;
     height: 500px;
     padding-top: 80px;
-    padding-bottom: 80px;
+    margin-bottom: 200px;
 }
 
 #CONTACT .section-title {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 #CONTACT .section-title h2 {
@@ -294,6 +294,18 @@ My Personal Editing:
     text-align: center;
     margin-top: 10px;
     opacity: .4;
+}
+
+#CONTACT .row p {
+  font-weight: bolder;
+}
+
+.contactimg {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* CUSTOMIZE THE CAROUSEL
