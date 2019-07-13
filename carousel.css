@@ -308,6 +308,25 @@ My Personal Editing:
   text-align: center;
 }
 
+/* FOOTER */
+footer {
+    background: #343a40;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+footer p {
+    vertical-align: middle;
+    font-size: 15px;
+    opacity: none;
+    align-content: center;
+    margin: 0;
+}
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
